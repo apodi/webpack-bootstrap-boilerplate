@@ -99,7 +99,11 @@ const config = {
     new HtmlWebpackPlugin({
         template: 'index.html'
       }),
-      extractPlugin
+      extractPlugin,
+      new webpack.ProvidePlugin({
+        $: "jquery",
+        jQuery: "jquery"
+       })
       
   ],
   devServer: {
