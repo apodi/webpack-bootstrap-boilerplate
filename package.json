@@ -34,8 +34,8 @@
     "webpack-dev-server": "^3.1.4"
   },
   "dependencies": {
-    "bootstrap": "^4.1.2",
-    "jquery": "^3.4.0",
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.3.1",
     "popper.js": "^1.14.3"
   }
 }
